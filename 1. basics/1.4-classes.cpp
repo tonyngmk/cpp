@@ -2,16 +2,24 @@
 
 using namespace std;
 
-class MyClass{
+class CatClass{
     public:
-        void coolSaying() {
-            cout << "preaching to the choir" << endl;
+        void setSound(string inputNoise) {
+            noise = inputNoise;
         }
+        string makeSound() {
+            return noise;
+        }
+        
+
+    private:
+        string noise;
 };
 
 
 int main() {
-    MyClass myObject;
-    myObject.coolSaying();
+    CatClass myCat;
+    myCat.setSound("purr");
+    cout << myCat.makeSound() << endl;
     return 0;
 }
