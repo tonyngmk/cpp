@@ -5,7 +5,7 @@ using namespace std;
 int main() 
 {
     // // Basic
-    // cout << 1 + 2 << endl;
+    cout << 1 + 2 << endl;
     // cout << 3 - 2 << endl;
     // cout << 8 * 4 << endl;
     // cout << 8 / 3 << endl;
